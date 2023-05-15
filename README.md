@@ -15,7 +15,7 @@ For a computer with i7-6700k cpu and 16GB memory, it will take about ~3 hours wh
 2. outputs are mesh files ending with '\_tri.obj' which are subdivided and triangulated mesh files, and data files ending with '.npy' under corresponding "vertex_indinces_of_arbitrary_surfaces" which contains a list of numpy arrays of vertex indinces of sub-surfaces from each mesh. 
 
 ## Usage
-1. open blender software, if not installed, then download it from [here](https://www.blender.org/download/). NO insatlled needed just unzip it.
+1. open blender software, if not installed, then download it from [here](https://www.blender.org/download/). NO installation needed just unzip it.
 2. clone or download the zip file of this repos (then unzip it).
 3. click the "Scripting" tab on the above menu in blender, then click "Open" tab under "Scripting", choose the work path to the mesh_processer.py script in the unzipped repos.
 4. change the variable named "work_path" in the mesh_processer.py. 
