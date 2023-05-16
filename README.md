@@ -1,5 +1,8 @@
 # Mesh-preprocessor-in-blender-with-python
 This repos presents a mesh preprocessor tool which works with python and blender. It's capable of processing mesh files in batch.
+<div align='center'>
+  <img src='media/featured.png'>
+</div>
 
 ## Introduction
 The main reason to create such a mesh preprocessor is that preparing mesh files (especially .obj file format) for datasets usually is time-consuming, and it kind of needs tons of manual work. To free hands, a mesh processor tool is presented to do the dirty work for people.
