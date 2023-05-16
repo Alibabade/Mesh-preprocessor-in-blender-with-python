@@ -1,8 +1,8 @@
 # Mesh-preprocesser-in-blender-with-python
-This repos presents a mesh preprocesser tool which works with python and blender. It's capable of processing mesh files in batch.
+This repos presents a mesh preprocessor tool which works with python and blender. It's capable of processing mesh files in batch.
 
 ## Introduction
-The main reason to create such a mesh processer is that preparing mesh files (especially .obj file format) for datasets usually is time-consuming, and it kind of needs tons of manual work. To free hands, a mesh processer tool is presented to do the dirty work for people.
+The main reason to create such a mesh preprocessor is that preparing mesh files (especially .obj file format) for datasets usually is time-consuming, and it kind of needs tons of manual work. To free hands, a mesh processor tool is presented to do the dirty work for people.
 
 ## Functions
 A few functions are added in this tool, for example, subdivide mesh into (or closest to) desired vertex number, triangulate the mesh if needed, and extract vertex idxs of arbitrary sub-surfaces from the mesh. 
@@ -17,7 +17,7 @@ For a computer with i7-6700k cpu and 16GB memory, it will take about ~3 hours wh
 ## Usage
 1. open blender software, if not installed, then download it from [here](https://www.blender.org/download/). NO installation needed just unzip it.
 2. clone or download the zip file of this repos (then unzip it).
-3. click the "Scripting" tab on the above menu in blender, then click "Open" tab under "Scripting", choose the work path to the mesh_preprocesser.py script in the unzipped repos.
+3. click the "Scripting" tab on the above menu in blender, then click "Open" tab under "Scripting", choose the work path to the mesh_preprocessor.py script in the unzipped repos.
 4. change the variable named "work_path" in the mesh_preprocesser.py. 
 5. click the "Run Script" tab under "Scripting", then you are ready to go.
 
