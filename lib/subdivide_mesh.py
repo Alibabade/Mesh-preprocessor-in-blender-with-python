@@ -142,7 +142,7 @@ def subdivide_mesh(root_path, dir_names, verts_min, verts_max, verts_threshold):
 
 
 def main():
-    root_path = "/media/li/alibaba_2/FILES_OFFICE/github_repos/Python_tools_for_mesh_processing_in_blender/data/"
+    root_path = {your_work_path+'/data'}
     dir_names = ['bear']
     # change the following variables
     verts_min = 0 #represent 9k,50k,100k,150k #9
