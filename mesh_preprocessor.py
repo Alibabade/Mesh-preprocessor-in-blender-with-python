@@ -58,7 +58,7 @@ class mesh_preprocessor:
         
         
 def main():
-    parser = argparse.ArgumentParser(description='parser for mesh processer')
+    parser = argparse.ArgumentParser(description='parser for mesh preprocessor')
     # please change work_path to your own work path#########################################################
     work_path = {your_work_path}
     ########################################################################################################
