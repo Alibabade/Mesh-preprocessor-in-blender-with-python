@@ -55,7 +55,7 @@ def triangulate_mesh(data_path, dir_names):
 
 def main():
     
-    root_path = "/media/li/alibaba_2/FILES_OFFICE/github_repos/Python_tools_for_mesh_processing_in_blender/data/"
+    root_path = {your_work_path+'/data'}
     dir_names = ['bear']
     start_time = time.time()
     filename = "bbr-45k.obj"
