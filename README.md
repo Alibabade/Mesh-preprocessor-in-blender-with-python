@@ -21,6 +21,8 @@ For a computer with i7-6700k cpu and 16GB memory, it will take about ~3 hours wh
 4. change the variable named "work_path" in the mesh_preprocesser.py. 
 5. click the "Run Script" tab under "Scripting", then you are ready to go.
 
-
+<div align='center'>
+  <img src='media/mesh_preprocesser_blender.png'>
+</div>
 
 
