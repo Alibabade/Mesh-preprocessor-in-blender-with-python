@@ -253,7 +253,7 @@ def extract_arbitrary_surfaces_from_mesh(data_root, dir_names, nums_surface, min
         
        
 def main():
-    data_root = "/media/li/alibaba_2/FILES_OFFICE/github_repos/Python_tools_for_mesh_processing_in_blender/data/"
+    data_root = {your_work_path+'/data'}
     #dir_names = 'bear'    
     nums_surface = 2
     min_wanted_faces = 1000
