@@ -60,7 +60,7 @@ class mesh_processer:
 def main():
     parser = argparse.ArgumentParser(description='parser for mesh processer')
     # please change work_path to your own work path#########################################################
-    work_path = "/media/li/alibaba_2/FILES_OFFICE/github_repos/Python_tools_for_mesh_processing_in_blender"
+    work_path = {your_work_path}
     ########################################################################################################
     parser.add_argument("--work_path", type=str, required=False, default = work_path,
                         help="please add the path to your mesh data (.obj format).")
