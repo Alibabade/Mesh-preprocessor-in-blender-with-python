@@ -1,4 +1,4 @@
-# Mesh-preprocesser-in-blender-with-python
+# Mesh-preprocessor-in-blender-with-python
 This repos presents a mesh preprocessor tool which works with python and blender. It's capable of processing mesh files in batch.
 
 ## Introduction
