@@ -17,8 +17,8 @@ There are four steps for mesh processing in this script, which are:
     4. generate_arbitrary_surfaces_from_mesh	: extract intact sub-surfaces from the triangulated mesh
 """
 
-class mesh_processer:
-    name = "mesh_processer"
+class mesh_preprocessor:
+    name = "mesh_preprocessor"
     
     def __init__(self, args):
         self.args = args
@@ -93,7 +93,7 @@ def main():
                
     args = parser.parse_args() 
     
-    instance = mesh_processer(args)
+    instance = mesh_preprocessor(args)
     instance.start()
     
 if __name__ == "__main__":
