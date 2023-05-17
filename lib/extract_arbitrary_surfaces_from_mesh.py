@@ -22,11 +22,7 @@ Method: Enter 'Object' Mode -> import mesh obj
         -> save vertex index (start with 0) into file (.npy) 
 
 """
-"""
-Li Wang
-27 June 2020
 
-"""
 # read vertex coordinates from obj file
 def read_obj(filename):
     obj_file = open(filename, 'r')
